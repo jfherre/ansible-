@@ -1,7 +1,7 @@
 ---
 - hosts: all
-   tasks:
-  - name: uninstall vim 
+  tasks:
+  - name: desintalar vim
     yum:
-      name: vim
+      name: httpd
       state: absent
