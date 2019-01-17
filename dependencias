@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+  - name: instalar dependencias
+    yum:
+      name: vim
+      state: absent
