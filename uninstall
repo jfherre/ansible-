@@ -3,5 +3,5 @@
   tasks:
   - name: desintalar vim
     yum:
-      name: httpd
+      name: vim
       state: absent
